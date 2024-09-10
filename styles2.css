@@ -287,8 +287,8 @@ footer {
     color: var(--color-dark);
     grid-column: 3 / 6;
     grid-row: 1 / 2;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .p2brödtext {
