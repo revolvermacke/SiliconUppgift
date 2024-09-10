@@ -396,6 +396,50 @@ footer {
     align-self: center;
 }
 
+.backgroundclr2 {
+    background-color: #F3F6FF;
+}
+
+.howdoesitwork {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#h1rubrik {
+    font-weight: 800;
+    color: var(--color-dark);
+    margin-top: 67px;
+    margin-bottom: 47px;
+    font-size: 40px;
+}
+
+.phonex3 {
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.h4rubrik {
+    font-weight: 800;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.p3brödtext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-lightgray);
+}
+
+#nästa {
+    margin-bottom: 100px;
+}
+
+
 
 @media (min-width: 768px) {
     .container {
