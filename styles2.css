@@ -274,6 +274,7 @@ footer {
 .section-container {
     display: flex;
     width: 100%;
+    gap: 50px;
 }
 
 
@@ -438,6 +439,90 @@ footer {
 #nästa {
     margin-bottom: 100px;
 }
+
+.page4 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5rem;
+}
+
+.both-sides {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 240px;
+    margin-top: 5rem;
+}
+
+.makemoney {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#h2rubrik {
+    font-weight: 800;
+    font-size: 32px;
+}
+
+.check1 {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding-bottom: 19px;
+    color: var(--color-lightgray);
+    /* margin-bottom: 10px; */
+}
+
+
+.btn-learn-more {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-size: 14px;
+}
+
+.btn-learn-more i {
+    margin: .5rem;
+}
+
+.btn-learn-more:hover {
+    color: var(--color-white);
+    background-color: var(--color-gray);
+    text-decoration: none;
+}
+
+.btn--learn {
+    padding-top: 1.5rem;
+}
+
+.bottom-both {
+    display: flex;
+
+}
+
+#h2rubrik2 {
+    font-weight: 800;
+    font-size: 32px;
+    margin-bottom: 2rem;
+}
+
+.right-side {
+    margin-left: 6rem;
+}
+
+.innehåll-p4 {
+    display: inline-block;
+    margin: 0rem 1.5rem 1.5rem 0rem;
+
+    p {
+        margin-top: 1rem;
+        color: var(--color-lightgray);
+    }
+}
+
 
 
 
