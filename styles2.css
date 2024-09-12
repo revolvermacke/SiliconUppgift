@@ -538,8 +538,9 @@ footer {
 
 .clients {
     font-weight: 800;
-    font-size: 25px;
+    font-size: 24px;
     color: var(--color-dark);
+    padding: var(--container-padding);
 }
 
 .rating-12 {
@@ -573,7 +574,7 @@ footer {
 .ratings {
     display: flex;
     gap: 1.5rem;
-    padding-left: 7rem;
+    padding-left: 8rem;
     padding-top: 3rem;
 }
 
@@ -616,6 +617,7 @@ padding-top: 3rem;
 .faqs {
     padding-top: 5rem;
     display: flex;
+    justify-content: space-between;
     gap: 6rem;
 }
 
@@ -626,12 +628,10 @@ padding-top: 3rem;
 }
 
 .phone-box, .mess-box {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     padding: .5rem;
     border: 1px solid #E2E5F1;
     border-radius: 8px;
+    padding: var(--container-padding);
     
 
     img {
@@ -765,6 +765,76 @@ padding-top: 3rem;
     padding: 1rem;
 }
 
+.subscribe-box {
+    margin-top: 111px;
+    height: 222px;
+    border-radius: 8px;
+    background-color: #f3f6ff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 6rem;
+}
+
+.subleft {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.sub {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+
+.form-container {
+    border-radius: 10px;
+    width: 472px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.input-container img {
+    padding: 17px;
+    color: #999;
+    background-color: #fff;
+}
+
+input[type="email"] {
+    border: none;
+    outline: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    flex: 1;
+    font-size: 16px;
+    color: #333;
+}
+
+input[type="email"]::placeholder {
+    color: #bbb;
+}
+
+.sub-btn {
+    padding: 15px 25px;
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    border-radius: 0 8px 8px 0;
+}
+
+.sub-btn:hover {
+    background-color: #5946d2;
+}
 
 
 @media (min-width: 768px) {
