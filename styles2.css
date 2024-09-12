@@ -171,8 +171,8 @@ header .container {
 }
 
 footer {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     font-size: 14px;
     color: var(--color-lightgray);
 
